@@ -1,0 +1,324 @@
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+        .scoreboard {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white; 
+            color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #003366;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        .header .team {
+            font-size: 18px;
+        }
+        .header .score {
+            font-size: 24px;
+        }
+        .row {
+            display: flex;
+            width: 100%;
+            height: 20px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: red;
+            border-bottom: 1px solid black;
+        }
+        .row:last-child {
+            border-bottom: none;
+        }
+        .row .batsman,
+        .row .bowler {
+            flex: 2;
+            text-transform: uppercase;
+            background-color: red; 
+            padding: 5px;
+            font-weight: bold;
+        }
+        .row .runs,
+        .row .figures {
+            flex: 1;
+            text-align: center;
+            font-weight: bold;
+            background-color: #f7b500; 
+            color: white;
+            padding: 5px 10px;
+            height: 30px;
+        }
+        .highlight {
+            background-color: #f7b500; 
+            color: white;
+            padding: 2px 4px;
+            height: 25px;
+            font-weight: bold;
+        }
+        .scoreboards {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white; 
+            color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .headers {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #003366;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        .headers .team {
+            font-size: 18px;
+        }
+        .headers .score {
+            font-size: 24px;
+        }
+        .rows {
+            display: flex;
+            width: 100%;
+            height: 20px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color:#f7b500;
+            border-bottom: 1px solid black;
+        }
+        .rows:last-child {
+            border-bottom: none;
+        }
+        .rows .batsman,
+        .rows .bowler {
+            flex: 2;
+            text-transform: uppercase;
+            background-color:#f7b500 ; 
+            padding: 5px;
+            font-weight: bold;
+        }
+        .rows .runs,
+        .rows .figures {
+            flex: 1;
+            text-align: center;
+            font-weight: bold;
+            background-color: red; 
+            color: white;
+            padding: 5px 10px;
+            height: 30px;
+        }
+        .highlights {
+            background-color: red; 
+            color: white;
+            padding: 2px 4px;
+            height: 25px;
+            font-weight: bold;
+        }
+        .container {
+            width: 100%;
+            height: 50px;
+            background:rgba(244, 243, 239, 0.688);
+            color:black;
+            text-align: center;
+            padding: 20px ;
+            position: relative;
+        }
+        .title {
+            font-size: 10px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .summary {
+            font-size: 15px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .toss-info {
+            font-size: 11px;
+        }
+        .team-logos {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .team-logos.left {
+            left: 180px;
+        }
+        .team-logos.right {
+            right: 190px;
+        }
+        .team-logos img {
+            height: 60px;
+        }
+        .con2{
+            background:wheat;
+            width: 100%;
+            height: 30px;
+        }
+        .new
+        {
+            left: 10px;
+            padding-top: 5px;
+        }
+        body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+  
+        color: #333;
+    
+      margin: 0;
+      padding: 20px;}
+  
+    h1 {
+      margin: 20px 0;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+    .teams-container {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .teams {
+      background: #fff;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-color: rgb(158, 74, 144);
+    }
+    .teams h2 {
+      background:rgb(159, 78, 147);
+      color: #fff;
+      padding: 10px;
+      margin: -10px -10px 10px;
+      border-radius: 20px 20px 0 0;
+    }
+    
+    
+    .player img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .player .name {
+      font-weight: bold;
+    }
+    .captain {
+      color: #ff5722;
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+      background: #fff;
+      border: 1px rgb(160, 76, 146);
+      border-radius: 10px;
+    }
+    .arrow
+    {
+        color: red;
+    }
+    .arr1
+    {
+        color: green;
+    }
+    .logo{
+            display: flex;
+            align-items: center;
+        justify-content: center;
+        
+            }
+            table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: center;
+            padding: 8px;
+            background-color: navy;
+            color: white;
+        }
+        th {
+            background-color: navy;
+            color: white;
+        }
+        .win {
+            color: green;
+            font-weight: bold;
+        }
+        .loss {
+            color: red;
+            font-weight: bold;
+        }
+        .container5 {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #000;
+    }
+    h1, h2 {
+        text-align: center;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        display: block;
+        font-weight: bold;
+    }
+    .checkbox-group label {
+        font-weight: normal;
+    }
+    .rules {
+        margin-top: 20px;
+    }
+    .rules p {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .declaration {
+        margin-top: 20px;
+    }
+    .img{
+            display: flex;
+            align-items: center;
+        justify-content: center;
+        
+            }
+            footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    
